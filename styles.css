@@ -3,6 +3,8 @@ html{
     justify-content: center;
 }
 body{
+    background-color: #572C2C;
+    color: #F5CBB8;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -12,13 +14,10 @@ body{
 }
 img{
     border-radius: 3px;
-    border: 2px solid black;
+    border: 2px solid #F5CBB8;
 }
 .bold{
     font-weight: bold;
-}
-#description{
-
 }
 #ingredients, #steps{
     width: 100%;
@@ -28,4 +27,7 @@ img{
 }
 li{
     margin: 4px;
+}
+a{
+    color: #F5CBB8;
 }
